@@ -20,6 +20,8 @@ PWNKIT Exploit Testing
 > [Davide Berardi](https://github.com/berdav/CVE-2021-4034)
 * Article explaining privilege escalation via preload libraries, providing insight into why a vulnerability like this is important
 > [R3d Buck3T](https://medium.com/r3d-buck3t/overwriting-preload-libraries-to-gain-root-linux-privesc-77c87b5f3bf8)
+* GLib's iconv implementation describing the gconv-modules file that we use maliciously to load a custom shared object
+> [Glib's iconv implementation](https://www.gnu.org/software/libc/manual/html_node/glibc-iconv-Implementation.html)
 
 ## Overview
 
