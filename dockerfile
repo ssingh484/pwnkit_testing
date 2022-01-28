@@ -15,4 +15,4 @@ RUN gcc -o exploit exploit.c
 RUN mkdir -p GCONV_PATH=.
 RUN cp $(which true) GCONV_PATH=./fake_lib.so:.
 
-ENTRYPOINT exec bash
+ENTRYPOINT exec ./run_exploit.sh
